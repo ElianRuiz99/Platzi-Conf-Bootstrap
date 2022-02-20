@@ -48,6 +48,20 @@
 /* section ponentes */
 /* Fin Main */
 
+/* section place and date */
+#place-time{
+    background-color: #212529;    
+}
+
+#place-time img{
+    width: 100%;
+}
+
+#place-time h2, p{
+    color: white;
+}
+/* fin section place and date */
+
 
 /* Footer */
 #footer {
