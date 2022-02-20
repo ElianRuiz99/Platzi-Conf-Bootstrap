@@ -1,0 +1,66 @@
+/* Header */
+.text-platzi{
+    color: #97c93e !important; 
+}
+
+#header img{
+    width: 80px;  
+}
+/* Fin Header */
+
+
+/* Main */
+/* section carousel */
+#main{
+    background-color: #1c3643;
+}
+
+#carousel .carousel-inner img{
+    max-height: 70vh;
+    object-fit: none;
+    filter: grayscale(60%);
+}
+
+#carousel{
+    padding: 10px;
+}
+/* Fin section carousel */
+
+/* section text-conf */
+#text-conf{
+    color: white;
+}
+
+.btn-platzi{
+    background-color: #97c93e;
+    color: white !important;
+}
+
+.btn-platzi:hover{
+    background-color: #6b8739;
+}
+/* section text-conf */
+
+/* section ponentes */
+#ponentes small, h2{
+    color: #97c93e;
+}
+/* section ponentes */
+/* Fin Main */
+
+
+/* Footer */
+#footer {
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372 );
+}
+
+#footer a{
+    color: white;
+}
+/* fin Footer */
+@media only screen and (max-width:600px){
+    #carousel .carousel-inner img{
+        max-height: 30vh;
+        object-fit: cover;  
+    }
+}
